@@ -1,10 +1,12 @@
 # Name of project
 
-> A longer description
+> This project is a simple `HTML` & `CSS` clone of the `Amazon.com` site. Simple
+> code will help novice developers better understand the reverse engineering of
+> sites.
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [Amazon Clone](#amazon-clone)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
@@ -22,7 +24,8 @@
 
 ## General info
 
-> A short description
+> This is a clone of the well-known `Amazon.com` site. The goal of this project
+> is to consolidate the ability to clone sites using only HTML and CSS
 
 ## Screenshots
 
@@ -32,13 +35,13 @@
 
 - Node 14.16.0
 - VSC code
-- JavaScript
-- ...
-- ...
+- HTML
+- CSS
 
 ## Setup
 
 - `npm run start`
+- `npm install`
 
 ## Code Examples
 
@@ -66,11 +69,11 @@ Project is: _in progress_
 
 ## Inspiration
 
-Project by freeCodeCamp.org
+Project by Roman Kovbinka
 
 ## Contact
 
-By [Name]
+[Roman](https://github.com/kovbinka)
 
 ## Instructions for use
 
@@ -79,9 +82,8 @@ By [Name]
 
 <!-- a guide to using this repository -->
 
-1. `git clone git@github.com:HackYourFutureBelgium/template-markdown.git`
-2. `cd template-markdown`
-3. `npm install`
+1. `git clone git@github.com/HackYourFutureBelgium/template-html-css.git`
+2. `npm install`
 
 ## Code Quality Checks
 
