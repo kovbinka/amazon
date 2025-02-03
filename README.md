@@ -1,8 +1,8 @@
 # Name of project
 
-> This project is a simple `HTML` & `CSS` clone of the `Amazon.com` site.
-> Simple code will help novice developers better understand the reverse
-> engineering of sites.
+> This project is a simple `HTML` & `CSS` clone of the `Amazon.com` site. Simple
+> code will help novice developers better understand the reverse engineering of
+> sites.
 
 ## Table of contents
 
@@ -24,8 +24,8 @@
 
 ## General info
 
-> This is a clone of the well-known `Amazon.com` site. The goal of this project is to
-> consolidate the ability to clone sites using only HTML and CSS
+> This is a clone of the well-known `Amazon.com` site. The goal of this project
+> is to consolidate the ability to clone sites using only HTML and CSS
 
 ## Screenshots
 
