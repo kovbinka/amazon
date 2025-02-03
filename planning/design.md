@@ -1,17 +1,7 @@
 # Design
 
-## Project's design overview
+## Wireframe
 
-> Give an overview of your project's design
+[website design](https://excalidraw.com/#json=L225a_iWsaMLrGhixhepx,J_EqbJCGmWxRX0Mh-Hx0TQ)
 
-<!-- give an overview of your project's design -->
-<!-- describe the reasoning behind your group's design and wireframe -->
-<!-- include other centralized decisions like fonts, palates, ... -->
-
----
-
-## Wireframe(s)
-
-> Include your wireframe(s) and link to wireframe
-
-<!-- provide a link to your wireframe documenting on Figma, or wherever it is -->
+![website design](/planning/design.png)
