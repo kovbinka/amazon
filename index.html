@@ -1,70 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Clone</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Amazon Clone</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
 
-  <link rel="stylesheet" href="./styles/index.css" />
-</head>
-
-<body>
-
-  <header class="header">
-    <div class="navbar">
-      <div class="main-navbar">
-        <div class="left-section">
-          <div class="left-section-logo">
-            <img class="amazon-logo" src="assets/amazon_logo.png" alt="logo" />
-          </div>
-          <div class="left-section-delivery">
-            <div>
-              <img class="location-logo" src="assets/location_icon.png" alt="logo" />
+  <body>
+    <header class="header">
+      <div class="navbar">
+        <div class="main-navbar">
+          <div class="left-section">
+            <div class="left-section-logo">
+              <img
+                class="amazon-logo"
+                src="assets/amazon_logo.png"
+                alt="logo"
+              />
             </div>
-            <div class="delivery-font">
-              Deliver to <br />
-              <span>Belgium</span>
+            <div class="left-section-delivery">
+              <div>
+                <img
+                  class="location-logo"
+                  src="assets/location_icon.png"
+                  alt="logo"
+                />
+              </div>
+              <div class="delivery-font">
+                Deliver to <br />
+                <span>Belgium</span>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="middle-section">
-          <div class="middle-section-left">
-            All <img src="assets/dropdown_icon.png" alt="" />
+          <div class="middle-section">
+            <div class="middle-section-left">
+              All <img src="assets/dropdown_icon.png" alt="" />
+            </div>
+            <input
+              class="middle-section-search"
+              type="text"
+              name="search"
+              id="search-bar"
+              placeholder="Search Amazon"
+            />
+            <img
+              class="middle-section-search-ico"
+              src="assets/search_icon.png"
+              alt="search-amazon"
+            />
           </div>
-          <div class="middle-section-middle">
-            <input class="middle-section-search" type="text" name="search" id="search-bar" />
-          </div>
-          <img class="middle-section-search-ico" src="assets/search_icon.png" alt="search-amazon" />
-        </div>
 
-        <div class="right-section">
-          <div class="right-section-lang">
-            <img class="right-section-flag-logo" src="assets/us_flag.png" alt="" />EN
-            <img class="right-section-dropdown-logo" src="assets/dropdown_icon.png" alt="" />
-          </div>
-          <div class="right-section-login">
+          <div class="right-section">
+            <div class="right-section-lang">
+              <img
+                class="right-section-flag-logo"
+                src="assets/us_flag.png"
+                alt=""
+              />EN
+              <img
+                class="right-section-dropdown-logo"
+                src="assets/dropdown_icon.png"
+                alt=""
+              />
+            </div>
+            <div class="right-section-login">
+              <div class="right-section-login-text">
+                Hello, sign in <br />
+                <span>Account &amp; Lists</span>
+              </div>
+              <img
+                class="right-section-login-dropdown-logo"
+                src="assets/dropdown_icon.png"
+                alt=""
+              />
+            </div>
             <div class="right-section-login-text">
-              Hello, sign in <br />
-              <span>Account &amp; Lists</span>
+              Returns<br /><span class="right-section-orders-span"
+                >&amp; Orders</span
+              >
             </div>
-            <img class="right-section-login-dropdown-logo" src="assets/dropdown_icon.png" alt="" />
+            <div class="right-section-cart">
+              <img src="assets/icons8-shopping-cart-64.png" alt="" />
+              <div>Cart</div>
+            </div>
           </div>
-          <div class="right-section-login-text">
-            Returns<br /><span class="right-section-orders-span">&amp; Orders</span>
+        </div>
+        <div class="belt-navbar">
+          <div>
+            <img src="/assets/menu_icon.png" alt="" /> <a href="/">All</a>
           </div>
-          <div class="right-section-cart">
-            <img src="assets/icons8-shopping-cart-64.png" alt="" />
-            <div>Cart</div>
-          </div>
+          <a href="/">Today's Deals</a>
+          <a href="/">Customer Service</a>
+          <a href="/">Registry</a>
+          <a href="/">Gift Cards</a>
+          <a href="/">Sell</a>
         </div>
       </div>
-      <div class="belt-navbar">navbelt</div>
+    </header>
+
+    <div>
+      <h1>scroll photo</h1>
     </div>
-  </header>
-
-</body>
-
+  </body>
 </html>
