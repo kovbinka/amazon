@@ -1,55 +1,81 @@
-# Project Name
+# Amazon Clone
 
 <!-- describe your project -->
 
----
+This project is intended for those who want to see a high-quality and
+easy-to-code clone of the well-known Amazon.com site.
 
 ## Setup
 
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+- Create a new rep
+- Create a project issues
+- Clone the repo to a local machine
+- Create branches for each issue
 
----
+## Landing page
 
-<!-- copy this section once for each must-have user story -->
+### Navigation bar
 
-## user story
+This feature develops on a branch `nav-bar`.
 
-<!-- each issue created from this section will have the `for: user story` label -->
+#### HTML
 
-> "as a ... i can ... so that ..."
+- Add `div` with class="nav-bar"
+- Add a couple of `div` for two section of navbar
+- Add `div's` for main navbar section
+- Add `div's` for belt navbar section
 
-<!-- write any extra notes or description -->
+#### CSS
 
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
+- Add style to nav-bar
+- Add style to main navbar section
+- Add style to belt navbar section
 
-### Logic: user story
+### Introduction content
 
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+This feature develops on a branch `trend-section`.
 
-### Interface: user story
+#### HTML
 
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- Add `div` to create a main container
+- Add `div` to create container for photos
+- Add two `button` for scrolling photos
 
-### Interaction: user story
+#### CSS
 
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- Add style to main container
+- Add style to photo container
+- Add style to `img`
+- Add style to `button`
 
-### Documentation: user story
+### About me
 
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+This feature develops on a branch `product`.
+
+#### HTML
+
+- Add `div` to create container for card section
+- Add `div's` to create product card's
+- Add `a` to product car's section
+
+#### CSS
+
+- Add style to main container
+- Add style to product card's
+- Add style to `a`
+
+### Footer
+
+This feature develop on a branch `footer`
+
+#### HTML
+
+- Add `div` for the footer section
+- Add `div` to create four rows container with links
+- Add `a` to share the links
+
+#### CSS
+
+- Add style to footer container
+- Add style to rows container
+- Add style to `a`
