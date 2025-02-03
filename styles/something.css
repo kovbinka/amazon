@@ -49,19 +49,22 @@ header.navbar {
   align-items: center;
   justify-content: space-around;
   gap: 2px;
+  cursor: pointer;
 }
 
 .amazon-logo {
   margin-top: 8px;
-  padding: 2px 2px;
+  padding: 2px;
   width: 105px;
   height: 38px;
+  cursor: pointer;
 }
 
 .location-logo {
   width: 18px;
   height: 15.8px;
   margin-top: 16px;
+  cursor: pointer;
 }
 
 .delivery-font {
@@ -79,7 +82,7 @@ header.navbar {
   height: 78%;
   flex: 0.94;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: #fff;
   color: gray;
@@ -101,31 +104,32 @@ header.navbar {
   border-radius: 2px;
   font-weight: 500;
   color: #9c9c9c;
+  cursor: pointer;
 }
 
 .middle-section-left img {
   align-items: center;
+  justify-content: center;
   margin-top: 30%;
   height: 6px;
   width: 9px;
+  cursor: pointer;
 }
 
-.middle-section-middle {
+/* .middle-section-middle {
   justify-content: center;
   text-align: center;
   align-items: center;
-}
+} */
 
 .middle-section-search {
-  justify-content: center;
-  text-align: center;
   align-items: center;
   border: none;
   outline: none;
-  padding-left: 20px;
-  border-color: #fff;
+  padding-left: 10px;
   height: 35px;
-  width: 100%;
+  width: 93%;
+  max-width: 93%;
 }
 
 .middle-section-search-ico {
@@ -134,8 +138,9 @@ header.navbar {
   align-items: center;
   max-width: 39px;
   padding: 8px;
-  background: #ffd64f;
+  background: #ffd04f;
   border-radius: 0 4px 4px 0;
+  cursor: pointer;
 }
 
 .right-section {
@@ -159,6 +164,7 @@ header.navbar {
 .right-section-flag-logo {
   height: 24px;
   width: 24px;
+  cursor: pointer;
 }
 
 .right-section-dropdown-logo {
@@ -166,6 +172,7 @@ header.navbar {
   margin-top: 15%;
   height: 6px;
   width: 9px;
+  cursor: pointer;
 }
 
 .right-section-login {
@@ -176,11 +183,13 @@ header.navbar {
 .right-section-login span {
   font-size: 15px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .right-section-login-text {
   font-size: 13px;
   color: #fff;
+  cursor: pointer;
 }
 
 .right-section-login-dropdown-logo {
@@ -188,15 +197,18 @@ header.navbar {
   margin-top: 17%;
   height: 6px;
   width: 9px;
+  cursor: pointer;
 }
 
 .right-section-orders-span {
   font-size: 15px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .right-section-cart {
   display: flex;
+  cursor: pointer;
 }
 
 .right-section-cart > div {
@@ -213,6 +225,24 @@ header.navbar {
 }
 
 .belt-navbar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  justify-content: left;
   height: 40px;
-  background-color: aqua;
+  background-color: #232f3f;
+  color: #fff;
+  font-size: 15px;
+}
+
+.belt-navbar > div {
+  display: flex;
+  margin-left: 1%;
+  align-items: center;
+  gap: 4px;
+}
+
+.belt-navbar div > img {
+  height: 25px;
+  width: 18px;
 }
