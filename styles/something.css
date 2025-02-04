@@ -94,6 +94,8 @@ header.navbar {
 .middle-section-left {
   background: #e2e2e2;
   height: 100%;
+  width: 7%;
+  min-width: 7%;
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -245,4 +247,64 @@ header.navbar {
 .belt-navbar div > img {
   height: 25px;
   width: 18px;
+}
+
+.trend-container {
+  overflow: hidden;
+  background-color: #ffe0e6;
+  height: 190%;
+}
+
+.trend-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-back {
+  overflow: hidden;
+  height: 225px;
+  background: url("/assets/valentine.jpg") center 1% / cover no-repeat;
+}
+
+.trend-valentines-image {
+  display: flex;
+  justify-content: center;
+  width: 1250px;
+}
+
+/* .trend-valentines-image > img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+} */
+
+.trends-cards-main {
+  display: flex;
+  background-color: #ffe0e6;
+  justify-content: center;
+}
+
+.trends-cards-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 2000vw;
+  height: 385px;
+  background-color: #ffe0e6;
+  gap: 15px;
+  padding: 10px 0;
+}
+
+.trends-cards-section div {
+  display: flex;
+  align-items: center;
+  width: 23%;
+  height: 100%;
+  justify-content: center;
+  background-color: #f00;
 }
