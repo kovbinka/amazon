@@ -264,8 +264,8 @@ header.navbar {
 
 .container-back {
   overflow: hidden;
-  height: 225px;
-  background: url("/assets/valentine.jpg") center 1% / cover no-repeat;
+  height: 290px;
+  background: url("/assets/valentine.jpg") center 4% / cover no-repeat;
 }
 
 .trend-valentines-image {
@@ -297,7 +297,15 @@ header.navbar {
   height: 385px;
   background-color: #ffe0e6;
   gap: 15px;
-  padding: 10px 0;
+  padding: 20px 0;
+}
+
+.card-one {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .trends-cards-section div {
@@ -307,4 +315,91 @@ header.navbar {
   height: 100%;
   justify-content: center;
   background-color: #f00;
+}
+
+.trends-cards-section .card-one {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+  background: #fff;
+  border-radius: 3px;
+  overflow: overlay;
+}
+
+.card-design {
+  width: 130px;
+  height: 80px;
+  border-radius: 4px;
+}
+
+.img-product-main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.img-product-div {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+.cards-links {
+  justify-content: left;
+  font-size: 18px;
+}
+
+.best-sells-container .best-sells-sub-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffe0e6;
+}
+
+.best-sells-container h1 {
+  background-color: #fff;
+  width: 95.4%;
+  padding: 0 1.4%;
+}
+
+.best-sells-main {
+  display: flex;
+  justify-content: center;
+  padding: 0 2.3%;
+  background-color: #ffe0e6;
+  border-radius: 3px;
+}
+
+.best-sells-bar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 40vh;
+  justify-content: space-around;
+  gap: 8px;
+  background-color: #fff;
+  overflow: overlay;
+}
+
+.best-sells-bar div {
+  display: flex;
+  background-color: #fff;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.best-sells-main .best-sells-bar img {
+  cursor: pointer;
+}
+
+.pre-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background: #364759;
+  color: #fff;
 }
