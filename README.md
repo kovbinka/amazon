@@ -1,4 +1,4 @@
-# Name of project
+# Amazon Clone
 
 > This project is a simple `HTML` & `CSS` clone of the `Amazon.com` site. Simple
 > code will help novice developers better understand the reverse engineering of
@@ -29,7 +29,7 @@
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](./planning/screen.png)
 
 ## Technologies
 
@@ -45,11 +45,24 @@
 
 ## Code Examples
 
-```js
-// the hello world program
-console.log("Hello World");
+```CSS
+<div class="pre-footer"><a href="main-navbar-id">Back to top</a></div>
+    <div class="footer-container">
+      <div class="footer-columns-container">
+        <div>
+          <h3>Get to Know Us</h3>
+          <ul>
+            <li>Careers</li>
+            <li>Blog</li>
+            <li>About Amazon</li>
+            <li>Investor Relations</li>
+            <li>Amazon Devices</li>
+            <li>Amazon Science</li>
+          </ul>
+        </div>
 ```
 
+<!--
 ## Features
 
 List of features ready and Todos for future development
@@ -61,11 +74,11 @@ List of features ready and Todos for future development
 To-do list:
 
 -
--
+- -->
 
 ## Status
 
-Project is: _in progress_
+Project is: _done_
 
 ## Inspiration
 
