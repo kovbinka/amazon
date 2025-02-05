@@ -92,6 +92,7 @@ header.navbar {
 }
 
 .middle-section-left {
+  display: flex;
   background: #e2e2e2;
   height: 100%;
   width: 7%;
@@ -99,10 +100,7 @@ header.navbar {
   justify-content: center;
   text-align: center;
   align-items: center;
-  padding-top: 9px;
-  padding-bottom: 8px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 9px 10px;
   border-radius: 2px;
   font-weight: 500;
   color: #9c9c9c;
@@ -112,7 +110,7 @@ header.navbar {
 .middle-section-left img {
   align-items: center;
   justify-content: center;
-  margin-top: 30%;
+  margin-left: 5%;
   height: 6px;
   width: 9px;
   cursor: pointer;
@@ -152,6 +150,7 @@ header.navbar {
   align-items: center;
   background-color: #131921;
   margin-right: 10px;
+  overflow: hidden;
 }
 
 .right-section-lang {
@@ -264,8 +263,9 @@ header.navbar {
 
 .container-back {
   overflow: hidden;
+  width: 100%;
   height: 290px;
-  background: url("/assets/valentine.jpg") center 4% / cover no-repeat;
+  background: url("../assets/valentine.jpg") center 4% / cover no-repeat;
 }
 
 .trend-valentines-image {
@@ -311,7 +311,7 @@ header.navbar {
 .trends-cards-section div {
   display: flex;
   align-items: center;
-  width: 23%;
+  width: 21%;
   height: 100%;
   justify-content: center;
   background-color: #f00;
@@ -351,6 +351,13 @@ header.navbar {
   font-size: 18px;
 }
 
+.best-sells-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffe0e6;
+}
+
 .best-sells-container .best-sells-sub-container {
   display: flex;
   justify-content: center;
@@ -359,14 +366,14 @@ header.navbar {
 
 .best-sells-container h1 {
   background-color: #fff;
-  width: 95.4%;
-  padding: 0 1.4%;
+  width: 86.2%;
+  padding: 0 2%;
 }
 
 .best-sells-main {
   display: flex;
-  justify-content: center;
-  padding: 0 2.3%;
+  justify-content: space-around;
+  padding: 0 6.9%;
   background-color: #ffe0e6;
   border-radius: 3px;
 }
@@ -375,7 +382,7 @@ header.navbar {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 40vh;
+  height: 25vh;
   justify-content: space-around;
   gap: 8px;
   background-color: #fff;
@@ -402,4 +409,146 @@ header.navbar {
   height: 50px;
   background: #364759;
   color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 300px;
+  background-color: #232f3f;
+  overflow: hidden;
+}
+
+.footer-columns-container {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  color: #9cacb4;
+}
+
+.footer-columns-container h3 {
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer-columns-container li {
+  cursor: pointer;
+}
+
+.footer-columns-container ul {
+  list-style: none;
+  line-height: 200%;
+}
+
+.footer-columns-container .footer-columns-container-li {
+  line-height: 120%;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #232f3f;
+  border-top: 1px solid #3a4553;
+}
+
+.sub-container-design {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  height: 70px;
+  overflow: hidden;
+}
+
+.button-container {
+  display: flex;
+  gap: 5px;
+}
+
+.pseudo-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 120px;
+  border: solid;
+  border-color: #717a84;
+  border-radius: 4px;
+  border-width: 1px;
+  gap: 12%;
+}
+
+.pseudo-button div {
+  width: 80%;
+}
+
+.pseudo-button p {
+  color: #fff;
+  cursor: pointer;
+}
+
+.sub-container-design .pseudo-button .global-ico {
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2px;
+  cursor: pointer;
+}
+
+.drop-down-ico-footer {
+  display: flex;
+  width: 12px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #131a22;
+}
+
+.footer-first-section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.footer-first-section ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  width: 100%;
+  gap: 1%;
+}
+
+.footer-first-section li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  color: #b6babf;
+}
+
+.footer-first-section .check-box {
+  display: flex;
+  align-items: center;
+  padding-top: 3px;
+  padding-left: 1px;
+}
+
+.footer-last-section {
+  color: #b6babf;
+  margin-top: 5px;
 }
