@@ -28,7 +28,7 @@ header.navbar {
 }
 
 .main-navbar {
-  height: 50px;
+  height: 51px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -145,7 +145,9 @@ header.navbar {
 
 .right-section {
   display: flex;
+  height: 51px;
   justify-content: space-between;
+  flex-wrap: nowrap;
   gap: 8px;
   align-items: center;
   background-color: #131921;
@@ -160,12 +162,12 @@ header.navbar {
   align-items: center;
   justify-content: space-around;
   gap: 3px;
+  overflow: hidden;
 }
 
-.right-section-flag-logo {
-  height: 24px;
-  width: 24px;
+.right-section-lang .right-section-flag-logo {
   cursor: pointer;
+  width: 70%;
 }
 
 .right-section-dropdown-logo {
@@ -179,10 +181,11 @@ header.navbar {
 .right-section-login {
   display: flex;
   gap: 3px;
+  overflow: hidden;
 }
 
 .right-section-login span {
-  font-size: 15px;
+  font-size: 100%;
   font-weight: 700;
   cursor: pointer;
 }
@@ -191,6 +194,8 @@ header.navbar {
   font-size: 13px;
   color: #fff;
   cursor: pointer;
+  overflow: hidden;
+  flex-wrap: nowrap;
 }
 
 .right-section-login-dropdown-logo {
@@ -262,10 +267,17 @@ header.navbar {
 }
 
 .container-back {
+  object-fit: cover;
+  height: 240px;
   overflow: hidden;
+}
+
+.valentine-img {
+  display: flex;
   width: 100%;
-  height: 290px;
-  background: url("../assets/valentine.jpg") center 4% / cover no-repeat;
+  min-width: 1080px;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .trend-valentines-image {
@@ -293,8 +305,6 @@ header.navbar {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 2000vw;
-  height: 385px;
   background-color: #ffe0e6;
   gap: 15px;
   padding: 20px 0;
@@ -306,6 +316,14 @@ header.navbar {
   position: relative;
   flex-wrap: wrap;
   overflow: hidden;
+}
+
+.card-one h1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 3px;
+  overflow: overlay;
 }
 
 .trends-cards-section div {
@@ -349,10 +367,18 @@ header.navbar {
 .cards-links {
   justify-content: left;
   font-size: 18px;
+  padding-bottom: 4px;
+}
+
+.scroll-sells-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffe0e6;
 }
 
 .best-sells-container {
-  display: flex;
+  /* display: flex; */
+  width: 86vw;
   flex-direction: column;
   justify-content: center;
   background-color: #ffe0e6;
@@ -360,20 +386,18 @@ header.navbar {
 
 .best-sells-container .best-sells-sub-container {
   display: flex;
-  justify-content: center;
   background-color: #ffe0e6;
 }
 
 .best-sells-container h1 {
   background-color: #fff;
-  width: 86.2%;
-  padding: 0 2%;
+  padding-left: 0.5%;
+  width: 100%;
 }
 
 .best-sells-main {
   display: flex;
   justify-content: space-around;
-  padding: 0 6.9%;
   background-color: #ffe0e6;
   border-radius: 3px;
 }
@@ -392,7 +416,6 @@ header.navbar {
 .best-sells-bar div {
   display: flex;
   background-color: #fff;
-  width: 200px;
   justify-content: center;
   align-items: center;
   border-radius: 3px;
@@ -400,6 +423,7 @@ header.navbar {
 
 .best-sells-main .best-sells-bar img {
   cursor: pointer;
+  width: 76%;
 }
 
 .pre-footer {
@@ -423,9 +447,17 @@ header.navbar {
 
 .footer-columns-container {
   display: flex;
-  flex-direction: row;
-  gap: 100px;
+  column-gap: 4%;
+  justify-content: center;
+  width: 90%;
   color: #9cacb4;
+}
+
+.footer-columns-container div {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
 
 .footer-columns-container h3 {
@@ -460,7 +492,7 @@ header.navbar {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 100px;
+  gap: 50px;
   height: 70px;
   overflow: hidden;
 }
@@ -516,6 +548,7 @@ header.navbar {
   align-items: center;
   padding: 10px;
   background-color: #131a22;
+  overflow: hidden;
 }
 
 .footer-first-section {
@@ -551,4 +584,22 @@ header.navbar {
 .footer-last-section {
   color: #b6babf;
   margin-top: 5px;
+}
+
+/* Media */
+
+@media only screen and (width < 701px) {
+  header .right-section {
+    display: none;
+  }
+}
+
+@media only screen and (width < 541px) {
+  .sub-container .amazon-logo {
+    display: none;
+  }
+
+  .footer .footer-first-section {
+    display: none;
+  }
 }
